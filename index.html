@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="Background">
+    <div class="Taskbar">
+        <h1 class="menu" id="current"><a href="index.html">Registrieren</a></h1>
+        <h1 class="menu"><a href="singin.html">Einloggen</a></h1>
+        <h1 class="menu"><a href="loaduser.html">Nutzer anzeigen</a></h1>
+        <h1 id="Headline">Registrieren</h1>
+    </div>
+
+
+    <form method="get">
+        <label for="fname">Vorname:</label>
+        <input type="text" id="fname" name="fname" placeholder="John"><br>
+
+        <label for="lname">Nachname:</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe"><br>
+
+        <label for="adrr">Adresse:</label>
+        <input type="text" id="adrr" name="adrr" placeholder="Doe-Street 777"><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Doe@generic.com"><br>
+
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" placeholder="..."><br>
+
+        <button type="button" id="submitData" value="Submit">Registrieren</button>
+
+    </form>
+    <div id="ErrorText">
+
+    </div>
+</body>
+
+</html>
