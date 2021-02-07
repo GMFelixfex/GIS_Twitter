@@ -110,11 +110,9 @@ namespace Abgabe3 {
             query = new URLSearchParams(<any>_formdata).toString();
         }
         url = url + "?" + query + "&currUser=" + user + _extrainfo;
-        console.log(url);
 
         let response: Response = await fetch(url);
         let message: string = await response.text();
-
         //Seitenabhängige Message Bearbeitung
         if (currentPage == "hauptseite.html" && _extrainfo != "&getcomment=do") {
             getSMessage("&getcomment=do");
@@ -140,7 +138,7 @@ namespace Abgabe3 {
             storeSingIn();
             location.reload();
         }
-        if (_message == "Nutzerprofil erstellt Log dich <a href='singin.html' id='Hier'>Hier</a> ein") {
+        if (_message == "<p>Nutzerprofil erstellt Log dich <a href='singin.html' id='Hier'>Hier</a> ein</p>") {
             window.open("singin.html", "_self");
         }
     }
