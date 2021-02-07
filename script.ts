@@ -1,3 +1,4 @@
+
 namespace Abgabe3 {
     //let ip: string = "http://localhost:8100/";
     let ip: string = "https://gistwitter2.herokuapp.com/";
