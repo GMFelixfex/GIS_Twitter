@@ -11,22 +11,22 @@
 
 <body id="Background">
     <div class="Taskbar">
-        <h1 class="menu"><a href="index.html">Registrieren</a></h1>
-        <h1 class="menu" id="current"><a href="singin.html">Einloggen</a></h1>
-        <h1 class="menu"><a href="loaduser.html">Nutzer anzeigen</a></h1>
-        <h1 id="Headline">Nutzer Anzeigen</h1>
+        <h1 id="Headline">Twitter 2.0: Einloggen</h1>
     </div>
-    <form method="get">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Max@Muster.de"><br>
+    <div id="Out">
+        <form method="get">
+            <label for="user">Username:</label>
+            <input type="text" id="user" class="forInput" name="user" placeholder="JDoe"><br>
 
-        <label for="password">Passwort:</label>
-        <input type="password" id="password" name="password" placeholder="..."><br>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" class="forInput" name="password" placeholder="..."><br>
 
-        <button type="button" id="submitData" value="Submit">Einloggen</button>
-    </form>
-    <div id="ErrorText">
+            <button type="button" id="submitData" value="Submit">Einloggen</button>
+        </form>
+        <div id="ErrorText">
 
+        </div>
+        <p id="regText">Hast du noch keinen Account? Registriere dich <a href="index.html" id="Hier">Hier</a> </p>
     </div>
 </body>
 

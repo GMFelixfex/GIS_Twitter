@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="Background">
+    <div class="Taskbar">
+        <h1 id="Headline">Twitter 2.0: Hauptseite</h1>
+        <h1 class="menu" id="Auslog">Ausloggen</h1>
+        <h1 class="menu" id="current"><a href="hauptseite.html">Hauptseite</a></h1>
+        <h1 class="menu"><a href="loaduser.html">Follow</a></h1>
+        <h1 class="menu"><a href="profil.html">Profil</a></h1>
+    </div>
+
+    <div id="Out">
+        <form method="get">
+            <label for="comment" id="biggerLable">Schreibe Deinen Tweet:</label><br>
+            <textarea id="comment" class="forInput" name="comment" placeholder="Dein eigener Tweet"></textarea><br>
+            <button type="button" id="submitData" value="Submit">Posten</button>
+
+        </form>
+        <div id="ErrorText">
+            
+        </div>
+
+        <div id="KommentarBox">
+
+        </div>
+    </div>
+</body>
+
+</html>
