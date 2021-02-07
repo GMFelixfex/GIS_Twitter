@@ -1,7 +1,8 @@
 "use strict";
 var Abgabe3;
 (function (Abgabe3) {
-    let ip = "http://localhost:8100/";
+    //let ip: string = "http://localhost:8100/";
+    let ip = "https://gistwitter2.herokuapp.com/";
     //Werte die Sehr oft genutzt werden und somit global sein müssen
     let currentPage = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1);
     let user = localStorage.getItem("Eingeloggt");
