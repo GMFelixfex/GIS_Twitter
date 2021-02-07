@@ -1,6 +1,6 @@
 namespace Abgabe3 {
-    let ip: string = "http://localhost:8100/";
-    //let ip: string = "https://gisfelixfex.herokuapp.com/";
+    //let ip: string = "http://localhost:8100/";
+    let ip: string = "https://gisfelixfex.herokuapp.com/";
 
     //Interfaces für Nutzer
     interface ParsingUser {
